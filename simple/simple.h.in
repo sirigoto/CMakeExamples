@@ -1,0 +1,10 @@
+#ifndef SIMPLE_H
+#define SIMPLE_H
+
+/* CMake variables */
+#define MAJOR_VERSION @PROJECT_VERSION_MAJOR@
+#define MINOR_VERSION @PROJECT_VERSION_MINOR@
+
+/* A variable defined in CMakeLists*/
+#define MAGIC @MYVAR@
+#endif
